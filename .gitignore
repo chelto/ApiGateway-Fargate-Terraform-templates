@@ -9,7 +9,7 @@
 .terraform.tfstate.lock.info
 *.iml
 .history
-*.backend.tf
+*backend.tf
 .DS_Store
 
 *.exe
