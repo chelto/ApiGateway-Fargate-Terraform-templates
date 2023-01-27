@@ -3,8 +3,8 @@ You can use this implementaiton to put up docker api based container into a priv
 This sets up an isolated container which has no public route to the internet and instead uses AWS network(vpc endpoints) to contact other AWS service/apis.
 The Docker image envisaged for this has 3 api routes but you should change API Gateway recource mapping for your specific needs.
 
-![image](https://user-images.githubusercontent.com/6548443/147854791-4b1b4793-7dfa-4cae-b73a-a18fc3c1b8cf.png)
-
+## Architecture
+![Architecture](architecture.png)
 
 ## Input arguments
 * Existing domain name registered in route53 eg "mywebsite.com"
